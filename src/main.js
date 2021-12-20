@@ -1,10 +1,7 @@
 const a = 3;
 const b = 4;
-const c =
-  "dasjdasiojdasjdasiojdasdsadsadasdasdasdiasiodjdasjdasiojdasjdasiojdasdsadsadassadasdsadasdasdsadsadasdasdasdasdasdasdasdasdasdasdasdiasiodj";
+const c = 'isso é um teste';
 
-const sum = () => {
-  return a + b + c;
-};
+const sum = () => a + b + c;
 
 sum();
