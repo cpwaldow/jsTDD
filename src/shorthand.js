@@ -19,5 +19,4 @@ const person = {
   },
 };
 
-// person.hello(firstName);
-console.log(person);
+person.hello(firstName);

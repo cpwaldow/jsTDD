@@ -3,9 +3,9 @@
 // colocando um valor  default nos parâmetros,
 // caso nada seja enviado na ativação da função
 
-const hello = (name = 'Carlos', surname = 'Eduardo') => {
-  console.log(`Hello ${name} ${surname}! How are you?`);
-};
+function hello(name = 'Carlos', surname = 'Eduardo') {
+  return `Hello ${name} ${surname}! How are you?`;
+}
 
 hello(); // Hello Carlos Eduardo! How are you?
 
