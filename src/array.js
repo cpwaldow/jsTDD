@@ -53,3 +53,14 @@ const nathalieIndex = data.findIndex((person) => person.name === 'Nathalie'); //
 
 console.log(carlos);
 console.log(nathalieIndex);
+
+// Array fill
+
+const arr = new Array(50); // Array com 50 itens
+
+// arr.fill('lol'); adicionando a string 'lol' para todos os itens
+arr.fill('lol', 3, 6); // [ <3 empty items>, 'lol', 'lol', 'lol', <44 empty items> ]
+
+const newArr = [1, 2, 3, 4, 5, 6];
+
+newArr.fill('lol', 1, 3); // [ 1, 'lol', 'lol', 4, 5, 6 ]
