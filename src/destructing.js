@@ -47,3 +47,17 @@ console.log(nome);
 console.log(sobrenome);
 console.log(idade);
 console.log(cidade);
+console.log('');
+
+// Swap de variáveis com destructing
+
+let a = 42;
+let b = 21;
+
+console.log(`a: ${a}`);
+console.log(`b: ${b}`);
+
+[a, b] = [b, a];
+
+console.log(`a: ${a}`);
+console.log(`b: ${b}`);
